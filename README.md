@@ -56,9 +56,18 @@ Welcome to the **To-Do App**, a sleek and simple web application designed to hel
 
 ```
 to-do-app/
-├── index.html    # Main HTML file
-├── styles.css    # CSS for styling
-└── script.js     # JavaScript for app functionality
+├── public/
+│   ├── index.html
+├── src/
+│   ├── components/
+│   │   ├── Task.js
+│   │   ├── TaskList.js
+│   │   ├── TaskInput.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+├── package.json
+
 ```
 
 ---
